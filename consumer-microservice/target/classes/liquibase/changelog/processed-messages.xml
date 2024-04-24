@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+    <changeSet id="processed_messages" author="devysf" context="sql">
+        <sql>
+            CREATE TABLE processed_messages (
+                id bigserial NOT NULL,
+                message_id varchar(255) NULL,
+                topic_name varchar(255) NULL,
+                partition_no int4 NULL,
+
+                CONSTRAINT pk_processed_messages PRIMARY KEY (id),
+                CONSTRAINT uc_message_id UNIQUE (message_id)
+            );
+
+        </sql>
+    </changeSet>
+</databaseChangeLog>

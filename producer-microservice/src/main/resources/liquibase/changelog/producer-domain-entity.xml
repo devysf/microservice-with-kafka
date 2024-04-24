@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+    <changeSet id="producer_domain_entity" author="devysf" context="sql">
+        <sql>
+            CREATE TABLE producer_domain_entity (
+                id bigserial NOT NULL,
+                name varchar(255) NULL,
+
+                CONSTRAINT pk_producer_domain_entity PRIMARY KEY (id)
+            );
+
+        </sql>
+    </changeSet>
+</databaseChangeLog>

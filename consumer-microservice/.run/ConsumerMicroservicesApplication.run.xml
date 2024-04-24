@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ConsumerMicroservicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="consumer-microservice" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.consumermicroservice.ConsumerMicroservicesApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

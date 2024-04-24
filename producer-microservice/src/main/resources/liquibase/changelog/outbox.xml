@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+    <changeSet id="outbox" author="devysf" context="sql">
+        <sql>
+            CREATE TABLE outbox (
+                id bigserial NOT NULL,
+                is_sent bool NULL,
+                topic_name varchar(255) NULL,
+                partition_no int4 NULL,
+                message text NOT NULL,
+                message_id varchar(255) NULL,
+                message_time timestamp NOT NULL DEFAULT now(),
+
+                CONSTRAINT pk_producer_outbox PRIMARY KEY (id),
+                CONSTRAINT uc_message_id UNIQUE (message_id)
+            );
+
+        </sql>
+    </changeSet>
+</databaseChangeLog>

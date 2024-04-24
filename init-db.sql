@@ -1,0 +1,2 @@
+CREATE DATABASE producerdb;
+CREATE DATABASE consumerdb;

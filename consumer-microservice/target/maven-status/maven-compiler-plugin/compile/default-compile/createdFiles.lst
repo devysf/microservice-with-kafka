@@ -1,0 +1,15 @@
+com/example/consumermicroservice/entity/ConsumerDomainEntity.class
+com/example/consumermicroservice/config/ConsumerConfiguration.class
+com/example/consumermicroservice/entity/Outbox.class
+com/example/consumermicroservice/repository/ConsumerDomainRepository.class
+com/example/consumermicroservice/listener/ApplicationReadyListener.class
+com/example/consumermicroservice/ConsumerMicroservicesApplication.class
+com/example/consumermicroservice/producer/KafkaRelayService.class
+com/example/consumermicroservice/config/ProducerConfiguration.class
+com/example/consumermicroservice/service/ConsumerDomainService.class
+com/example/consumermicroservice/repository/ProcessedMessagesRepository.class
+com/example/consumermicroservice/entity/ProcessedMessages.class
+com/example/consumermicroservice/repository/OutboxRepository.class
+com/example/consumermicroservice/consumer/KafkaReceiverService.class
+com/example/consumermicroservice/event/ConsumerDomainEvent.class
+com/example/consumermicroservice/event/DLQEvent.class

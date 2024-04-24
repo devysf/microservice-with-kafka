@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ProducerMicroservicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="producer-microservice" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.producermicroservice.ProducerMicroservicesApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

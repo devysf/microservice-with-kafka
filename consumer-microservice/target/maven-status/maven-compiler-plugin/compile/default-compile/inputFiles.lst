@@ -1,0 +1,15 @@
+/Users/yusufozacet/kafka/kafka-best-practise-demo/consumer-microservice/src/main/java/com/example/consumermicroservice/repository/ProcessedMessagesRepository.java
+/Users/yusufozacet/kafka/kafka-best-practise-demo/consumer-microservice/src/main/java/com/example/consumermicroservice/entity/ProcessedMessages.java
+/Users/yusufozacet/kafka/kafka-best-practise-demo/consumer-microservice/src/main/java/com/example/consumermicroservice/ConsumerMicroservicesApplication.java
+/Users/yusufozacet/kafka/kafka-best-practise-demo/consumer-microservice/src/main/java/com/example/consumermicroservice/event/DLQEvent.java
+/Users/yusufozacet/kafka/kafka-best-practise-demo/consumer-microservice/src/main/java/com/example/consumermicroservice/repository/OutboxRepository.java
+/Users/yusufozacet/kafka/kafka-best-practise-demo/consumer-microservice/src/main/java/com/example/consumermicroservice/entity/ConsumerDomainEntity.java
+/Users/yusufozacet/kafka/kafka-best-practise-demo/consumer-microservice/src/main/java/com/example/consumermicroservice/service/ConsumerDomainService.java
+/Users/yusufozacet/kafka/kafka-best-practise-demo/consumer-microservice/src/main/java/com/example/consumermicroservice/config/ConsumerConfiguration.java
+/Users/yusufozacet/kafka/kafka-best-practise-demo/consumer-microservice/src/main/java/com/example/consumermicroservice/config/ProducerConfiguration.java
+/Users/yusufozacet/kafka/kafka-best-practise-demo/consumer-microservice/src/main/java/com/example/consumermicroservice/event/ConsumerDomainEvent.java
+/Users/yusufozacet/kafka/kafka-best-practise-demo/consumer-microservice/src/main/java/com/example/consumermicroservice/entity/Outbox.java
+/Users/yusufozacet/kafka/kafka-best-practise-demo/consumer-microservice/src/main/java/com/example/consumermicroservice/repository/ConsumerDomainRepository.java
+/Users/yusufozacet/kafka/kafka-best-practise-demo/consumer-microservice/src/main/java/com/example/consumermicroservice/producer/KafkaRelayService.java
+/Users/yusufozacet/kafka/kafka-best-practise-demo/consumer-microservice/src/main/java/com/example/consumermicroservice/listener/ApplicationReadyListener.java
+/Users/yusufozacet/kafka/kafka-best-practise-demo/consumer-microservice/src/main/java/com/example/consumermicroservice/consumer/KafkaReceiverService.java

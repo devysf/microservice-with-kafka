@@ -1,0 +1,29 @@
+spring:
+  profiles:
+    active: default
+  application:
+    name: producer-application
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:postgresql://localhost:5434/producerdb
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
+  liquibase:
+    change-log: classpath:/liquibase/changelog/changelog-master.xml
+    drop-first: true
+    contexts: sql
+    enabled: true
+
+kafka:
+  broker:
+    addresses:
+      localhost:9092
+producer:
+  acks: all
+  enable:
+    idempotence: true
+
+server:
+  port: 8081
